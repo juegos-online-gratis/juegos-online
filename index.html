@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juegos Online Gratis</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0f0f0f;
+  color:white;
+}
+
+h1{
+  text-align:center;
+  padding:20px;
+  font-size:40px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  gap:20px;
+  padding:20px;
+}
+
+.card{
+  background:#1c1c1c;
+  border-radius:15px;
+  overflow:hidden;
+  text-align:center;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+.card img{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+}
+
+.card p{
+  padding:10px;
+  margin:0;
+  font-weight:bold;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎮 Juegos Online Gratis</h1>
+
+<div class="grid">
+
+  <div class="card">
+    <a href="juego1.html">
+      <img src="imagenes/buspezzle.jpg" width="200">
+      <p>Bus Puzzle</p>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="juego2.html">
+      <img src="imagenes/DailyPath.jpg" width="200">
+      <p>Daily Path</p>
+    </a>
+  </div>
+
+  <div class="card">
+    <a href="juego3.html">
+      <img src="imagenes/tetris.jpg" width="200">
+      <p>Tetris</p>
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>
